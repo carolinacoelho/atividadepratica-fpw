@@ -125,6 +125,31 @@ section {
   height: calc(100% - 200px);
   color: #662549
 }
+
+/*Projetos e imagens*/
+
+.projetos h3{
+  padding: 10px;
+  color: #451952;
+}
+
+.projetos p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  color: #662549
+}
+
+.projetos a {
+  display: inline-block; 
+}
+
+.projetos a img {
+  max-width: 700px;
+  padding: 5px; 
+  border-radius: 25px;
+}
+
 /* --- Final  Pagina Portfólio --- */
 
 /* --- Inicio Pagina Contato --- */
@@ -141,14 +166,6 @@ section {
   padding: 20px;
   color: #662549
 }
-
-.redes p {
-  font-size: 20px;
-  text-align: justify;
-  padding: 10px;
-  color: #662549; 
-}
-
 
 /*Estilização do formulário*/
 #formulariocontato {
@@ -197,6 +214,14 @@ section {
 }
 
  /*Link redes sociais*/
+
+.redes p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  color: #662549; 
+}
+
 .redes a {
   display: inline-block; 
 }
@@ -217,9 +242,9 @@ section {
   color:#662549;
   bottom: 0;
 }
+
 /*
 
 FALTA:
 - Upar numa hospedagem
-- Listar projeto no portfolios
 - Fazer comentários
