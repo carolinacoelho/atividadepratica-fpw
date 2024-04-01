@@ -1,0 +1,225 @@
+
+*{
+  background-color: #E8BCB9;
+  font-family: "Poppins", sans-serif;
+  max-width: fit-content;
+}
+
+/* Menu de navegação*/
+
+.nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #AE445A;
+  transition: background-color 0.3s ease, color 0.3 ease;
+}
+
+.nav a:hover {
+  background-color: #662549;
+  color: #F39F5A;
+  border-radius: 15px;
+}
+
+header {
+  background-color: #F39F5A;
+  padding: 10px 0;
+}
+
+section {
+  position: relative;
+}
+
+.container{
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 300px;
+}
+
+/* --- Início Pagina Inicial --- */
+
+.paginainicial h1{
+  padding: 20px;
+  font-size: 40px;
+  color: #451952;
+}
+
+.paginainicial p{
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  height: calc(100% - 200px);
+  color: #662549;
+}
+
+/* --- Final Pagina Inicial --- */
+
+/* --- Inicio Pagina Sobre Mim --- */
+
+.sobremim h1{
+  padding: 20px;
+  font-size: 40px;
+  color: #451952;
+}
+
+.sobremim p{
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  height: calc(100% - 200px);
+  color: #662549;
+}
+
+/* --- Final Pagina Sobre Mim --- */
+
+/* --- Inicio Pagina Formação --- */
+
+.textoformacao h1{
+  padding: 20px;
+  font-size: 40px;
+  color: #451952;
+}
+
+.textoformacao h2{
+  padding: 20px;
+  font-size: 25px;
+  color: #451952;
+}
+
+.textoformacao p{
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  height: calc(100% - 200px);
+  color: #662549;
+  text-decoration: none;
+}
+
+/* --- Final Pagina Formação --- */
+
+/* --- Inicio Pagina Portfólio --- */
+
+.textoportfolio h1{
+  padding: 20px;
+  font-size: 40px;
+  color: #451952;
+}
+
+.textoportfolio p{
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  height: calc(100% - 200px);
+  color: #662549
+}
+/* --- Final  Pagina Portfólio --- */
+
+/* --- Inicio Pagina Contato --- */
+
+.textocontato h1{
+  padding: 20px;
+  font-size: 40px;
+  color: #451952;
+}
+
+.textocontato p{
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  color: #662549
+}
+
+.redes p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  color: #662549; 
+}
+
+
+/*Estilização do formulário*/
+#formulariocontato {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #662549;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Rótulos*/
+#formulariocontato label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*Caixas de texto e textarea*/
+#formulariocontato input[type="text"], #formulariocontato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #1D1A39;
+  text-decoration: none; 
+}
+
+#formulariocontato .envio button {
+  padding: 10px 20px;
+  background-color: #F39F5A;
+  color: #AE445A;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none; 
+}
+
+#formulariocontato button:hover {
+  background-color: #AE445A;
+  color: #F39F5A;
+  text-decoration: none; 
+}
+
+ /*Link redes sociais*/
+.redes a {
+  display: inline-block; 
+}
+
+.redes a img {
+  max-width: 50px;
+  padding: 5px; 
+}
+
+/* --- Final Pagina Contato --- */
+
+/*Rodapé*/
+
+.rodape{
+  position: fixed;
+  text-align: center;
+  font-size: small;
+  color:#662549;
+  bottom: 0;
+}
+/*
+
+FALTA:
+- Upar numa hospedagem
+- Listar projeto no portfolios
+- Fazer comentários
